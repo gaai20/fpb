@@ -13,6 +13,17 @@
   
     
         ,"post1": {
+            "title": "എന്താണ് computer science",
+            "content": ". Computer science നെ പറ്റി പഠിക്കാനും code ചെയ്യാനും ഏറ്റവും ആദ്യ ചുവട് വച്ചതിന് നിങ്ങളെ എല്ലാവരെയും ഞാൻ അഭിനന്ദിക്കുകയാണ്,cs നെ പറ്റി വളരെ comprehensive ആയുള്ള എല്ലാകാര്യങ്ങളും cover ചെയ്യുന്ന വളരെ simple ആയിട്ട് explain ചെയ്യുന്ന ഈയൊരു കോഴ്സിലേക്ക് എല്ലാവർക്കും സ്വാഗതം, exactly എന്താണ് കമ്പ്യൂട്ടർ സയൻസ്, ഒന്നുമില്ലാന്നെ fundamentally computer science എന്നത്കൊണ്ട് ഉദ്ദേശിക്കുന്നത് problem solving ഇനെ ആണ്. . നമുക്ക് പരിഹരിക്കേണ്ട ഒരു പ്രോബ്ലം ഉണ്ടെന്നു കരുതുക അതാണ് നമ്മുടെ input , ഈ പ്രോബ്ലം ഇതിൽ നിന്നും നമ്മൾ ജനറേറ്റ് ചെയ്യുന്ന സുധീഷിനെ നമുക്ക് ഔട്ട്പുട്ട് ആയും എടുക്കാകൂട്ടി input ൽinput നിന്നും ഉള്ള വിവരങ്ങൾ അടിസ്ഥാനമാക്കിയാണ് നമ്മൾ കണ്ടെത്തുന്ന പരിഹാരത്തെ നമുക്ക് ഔട്ടായി എടുക്കാ. . .",
+            "url": "https://gaai20.github.io/fpb/2021/05/13/lesson0.html",
+            "relUrl": "/2021/05/13/lesson0.html",
+            "date": " • May 13, 2021"
+        }
+        
+    
+  
+    
+        ,"post2": {
             "title": "yoo",
             "content": ". multilayer neural net . import torch . torch.manual_seed(7) features=torch.Tensor([[0,1,1],[0,1,1]]) inlaye=features.view(1,6) inlayer=inlaye.shape[1] hidlay=2 outlay=1 w1=torch.randn((inlayer,hidlay)) w2=torch.randn((hidlay,outlay)) def sigmoid(x): return 1/1+(torch.exp(-x)) b1=torch.randn((1,1)) y=torch.mm(inlaye,w1)+b1 z=sigmoid(torch.mm(y,w2)) z . tensor([[1.9084]]) . p=torch.Tensor([[27,2],[3,3]]) q=torch.Tensor([[10,5],[3,3]]) . print(p+q) . tensor([[37., 7.], [ 6., 6.]]) . martices;adition . possible . 1 1 + m n . | 1 m + h m . | m n + m n . | . e=torch.Tensor([[1,3,4],[1,2,1]]) print(e) . tensor([[1., 3., 4.], [1., 2., 1.]]) . t=e.view(1,6) print(t) . tensor([[1., 3., 4., 1., 2., 1.]]) .",
             "url": "https://gaai20.github.io/fpb/2021/04/05/markdowntest.html",
@@ -23,7 +34,7 @@
     
   
     
-        ,"post2": {
+        ,"post3": {
             "title": "baaaaaaaam",
             "content": "&#129322; back again . &#127804;&#127804;&#127804;&#127804;&#127804;&#127804;&#127804;&#127804;&#127804;&#127804;&#127804;&#127804;&#127804;&#127804;&#127804;&#128300;booom . import torch . def activation(x): return 1/(1+torch.exp(-x)) . torch.manual_seed(7) inp=torch.randn((1,4)) weight=torch.randn((4,2)) bias=torch.Tensor([1]) . bias . tensor([1.]) . y0=torch.matmul(inp,weight) y0 . tensor([[-0.7509, -0.6405]]) . y0=activation(torch.matmul(inp,weight)+bias) y0 . tensor([[0.5619, 0.5889]]) . Neural net . After a long break back to action with neural network, starting with udacity torch . Started with torch library ,sigmoid activation function , manual seed, random tensor, matrix multiplication, by combining all these we made a neural network .",
             "url": "https://gaai20.github.io/fpb/2021/04/04/baam.html",
@@ -34,7 +45,7 @@
     
   
     
-        ,"post3": {
+        ,"post4": {
             "title": "An Example Markdown Post",
             "content": "Example Markdown Post . Basic setup . Jekyll requires blog post files to be named according to the following format: . YEAR-MONTH-DAY-filename.md . Where YEAR is a four-digit number, MONTH and DAY are both two-digit numbers, and filename is whatever file name you choose, to remind yourself what this post is about. .md is the file extension for markdown files. . The first line of the file should start with a single hash character, then a space, then your title. This is how you create a “level 1 heading” in markdown. Then you can create level 2, 3, etc headings as you wish but repeating the hash character, such as you see in the line ## File names above. . Basic formatting . You can use italics, bold, code font text, and create links. Here’s a footnote 1. Here’s a horizontal rule: . . Lists . Here’s a list: . item 1 | item 2 | . And a numbered list: . item 1 | item 2 | Boxes and stuff . This is a quotation . . You can include alert boxes …and… . . You can include info boxes Images . . Code . You can format text and code per usual . General preformatted text: . # Do a thing do_thing() . Python code and output: . # Prints &#39;2&#39; print(1+1) . 2 . Formatting text as shell commands: . echo &quot;hello world&quot; ./some_script.sh --option &quot;value&quot; wget https://example.com/cat_photo1.png . Formatting text as YAML: . key: value - another_key: &quot;another value&quot; . Tables . Column 1 Column 2 . A thing | Another thing | . Tweetcards . Altair 4.0 is released! https://t.co/PCyrIOTcvvTry it with: pip install -U altairThe full list of changes is at https://t.co/roXmzcsT58 ...read on for some highlights. pic.twitter.com/vWJ0ZveKbZ . &mdash; Jake VanderPlas (@jakevdp) December 11, 2019 Footnotes . This is the footnote. &#8617; . |",
             "url": "https://gaai20.github.io/fpb/markdown/2020/01/14/test-markdown-post.html",
